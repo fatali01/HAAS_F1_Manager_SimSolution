@@ -1,0 +1,11 @@
+﻿body {
+    background-color: tan
+}
+
+footer {
+    border-top: 1px solid #000000; /* Black border color */
+}
+
+pb-3 {
+    color: black;
+}
