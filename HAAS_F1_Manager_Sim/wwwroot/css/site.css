@@ -22,21 +22,27 @@ body {
 }
 
 .navbar {
-    background-color: white
+    background-color: white;
+}
 
+.navbar-nav .nav-link {
+    color: black; /* Set default text color to grey */
+    border: 1px solid transparent; 
+    padding: 5px;
+    transition: color 0.3s; /* Add transition for smooth color change */
 }
 
 .navbar-nav .nav-link:hover {
-    border-color: red; 
-    background-color: red;
-    color: white; /* Set text color to white for better contrast */
+    color: darkred; /* Change text color to blue on hover */
+    background-color: transparent; /* Remove background color on hover */
+    border-color: transparent; /* Remove border color on hover */
 }
 .navbar-nav .nav-link {
-    border: 1px solid transparent; 
+    color: black; /* Set default text color to grey */
+    border: 1px solid transparent;
     padding: 5px;
-    transition: border-color 0.3s, background-color 0.3s; /* Add transition for smooth animation */
+    transition: color 0.3s; /* Add transition for smooth color change */
 }
-
 p {
     text-align: center
 }
@@ -47,9 +53,5 @@ a:hover{
     color: red;
 }
 .footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
     background-color: whitesmoke;
-    text-align: right; 
 } 
